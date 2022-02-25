@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20220225161836">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220225161836">
+        <link rel="stylesheet" href="css/style.min.css?_v=20220225161836">
+    </head>
+    <body>
+        <div class="overlay"></div>
+        <div class="modal">
+            <div class="modal__container">
+                <h3 class="modal__title">Замер - бесплатно</h3>
+                <a href="" class="modal__close"><img src="img/close.svg" alt=""></a>
+                <p class="modal__desc">Оставьте контактные данные и менеджер свяжется с Вами, чтобы согласовать дату и время выезда инженера</p>
+                <form id="formOrder" action="" class="modal__form">
+                    <div class="modal__input">
+                        <input type="text" placeholder="имя">
+                    </div>
+                    <div class="modal__input -phone">
+                        <input type="tel" placeholder="телефон">
+                    </div>
+                    <button class="modal__submit" type="submit">Заказать звонок</button>
+                </form>
+            </div>
+        </div>
+        <header class="header">
+            <div class="header__container container">
+                <a href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
+            </div>
+        </header>
+        <main>
+            <section class="basic">
+                <div class="basic__container container">
+                    <h1 class="basic__title">Ремонт квартир в Москве и МО под ключ с материалами по оптовым ценам.</h1>
+                    <p class="basic__subtitle">Пройдите тест за 1 минуту и узнайте точные сроки, цены на ремонт + получите материалы как делать качественный ремонт.</p>
+                    <div class="basic__slider slider swiper">
+                        <div class="slider__wrapper swiper-wrapper">
+                            <div class="slider__slide swiper-slide" style="background-image: url(img/slider.png);"></div>
+                            <div class="slider__slide swiper-slide" style="background-image: url(img/slider.png);"></div>
+                            <div class="slider__slide swiper-slide" style="background-image: url(img/slider.png);"></div>
+                            <div class="slider__slide swiper-slide" style="background-image: url(img/slider.png);"></div>
+                            <div class="slider__slide swiper-slide" style="background-image: url(img/slider.png);"></div>
+                            <div class="slider__slide swiper-slide" style="background-image: url(img/slider.png);"></div>
+                        </div>
+                        <div class="slider__arrows arrows">
+                            <a href="" class="arrows__item -prev"><img src="img/prev.svg" alt=""></a>
+                            <a href="" class="arrows__item -next"><img src="img/next.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <p class="basic__subtitle -present">Проходя тест вы экономите время нашим менеджерам и мы за это дарим вам подарок!</p>
+                    <a href="" class="basic__count">Начать расчет стоимости <img src="img/next.svg" alt=""></a>
+                </div>            
+            </section>
+            <section class="review">
+                <div class="review__container container">
+                    <h2 class="review__title">Последние отзывы на компанию из рейтинга:</h2>
+                    <div class="review__list">
+                        <div class="review__item item">
+                            <span class="item__title">Отзыв о компании:</span>
+                            <div class="item__user user">
+                                <div class="user__photo" style="background-image: url(img/user.png);"></div>
+                                <div class="user__info">
+                                    <p class="user__name">СМ-Ремонт</p>
+                                    <div class="user__raiting" data-raiting="5">
+                                        <div class="user__star"></div>
+                                        <div class="user__star"></div>
+                                        <div class="user__star"></div>
+                                        <div class="user__star"></div>
+                                        <div class="user__star"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item__repair repair">
+                                <span class="repair__title">Отзыв о ремонте:</span>
+                                <p class="repair__text">Очень удобная и простая в использовании настройка параметров. Потратил 5 минут и уже знаю приблизительную стоимость и нужные мне компании. Пока что не проверял на практике, но думаю, что обращусь именно туда, по цене и срокам подходит.</p>
+                            </div>
+                            <div class="item__plus plus">
+                                <span class="plus__title"><img src="img/plus.svg" alt="">Достоинства:</span>
+                                <p class="plus__text">Lorem ipsum quote saga te la vi. Isnt a good vibe but a nice check! Lorem ipsum quote saga te la vi.</p>
+                            </div>
+                            <div class="item__plus minus">
+                                <span class="minus__title"><img src="img/minus.svg" alt="">Недостатки:</span>
+                                <p class="minus__text">Lorem ipsum quote saga te la vi. Isnt a good vibe but a nice check! Lorem ipsum quote saga te la vi.</p>
+                            </div>
+                        </div>
+                        <div class="review__item item">
+                            <span class="item__title">Отзыв о компании:</span>
+                            <div class="item__user user">
+                                <div class="user__photo" style="background-image: url(img/user.png);"></div>
+                                <div class="user__info">
+                                    <p class="user__name">СМ-Ремонт</p>
+                                    <div class="user__raiting" data-raiting="5">
+                                        <div class="user__star"></div>
+                                        <div class="user__star"></div>
+                                        <div class="user__star"></div>
+                                        <div class="user__star"></div>
+                                        <div class="user__star"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item__repair repair">
+                                <span class="repair__title">Отзыв о ремонте:</span>
+                                <p class="repair__text">Очень удобная и простая в использовании настройка параметров. Потратил 5 минут и уже знаю приблизительную стоимость и нужные мне компании.</p>
+                            </div>
+                            <div class="item__plus plus">
+                                <span class="plus__title"><img src="img/plus.svg" alt="">Достоинства:</span>
+                                <p class="plus__text">Lorem ipsum quote saga te la vi. Isnt a good vibe but a nice check! Lorem ipsum quote saga te la vi.</p>
+                            </div>
+                            <div class="item__plus minus">
+                                <span class="minus__title"><img src="img/minus.svg" alt="">Недостатки:</span>
+                                <p class="minus__text">Lorem ipsum quote saga te la vi. Isnt a good vibe but a nice check! Lorem ipsum quote saga te la vi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__row">
+                    <div class="footer__col col">
+                        <h3 class="col__name">Рейтинг ремонтных компаний</h3>
+                        <ul class="col__list">
+                            <li class="col__item"><a href="">Рейтинг со всеми ремонтными компаниями Москвы</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col col">
+                        <h3 class="col__name">Рейтинг ремонтных компаний</h3>
+                        <ul class="col__list">
+                            <li class="col__item"><a href="">Рейтинг со всеми ремонтными компаниями Москвы</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col col">
+                        <h3 class="col__name">Рейтинг ремонтных компаний</h3>
+                        <ul class="col__list">
+                            <li class="col__item"><a href="">Рейтинг со всеми ремонтными компаниями Москвы</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col col">
+                        <h3 class="col__name">Рейтинг ремонтных компаний</h3>
+                        <ul class="col__list">
+                            <li class="col__item"><a href="">Рейтинг со всеми ремонтными компаниями Москвы</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="footer__hr">
+                <div class="footer__bottom">
+                    <span class="footer__develop">© 2022 Rerate. Все права защищены.</span>
+                    <ul class="footer__menu menu">
+                        <li class="menu__item"><a href="">Конфиденциальность</a></li>
+                        <li class="menu__item"><a href="">Условия использования</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220225161836"></script>
+    <script defer src="js/app.min.js?_v=20220225161836"></script>
+</html>
